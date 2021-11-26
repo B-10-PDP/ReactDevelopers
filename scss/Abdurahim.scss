@@ -207,7 +207,6 @@
         }
       }
     }
-    
   }
 }
 
@@ -235,6 +234,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  #stats .container {
+    padding: 50px 20px;
+  }
   #solutions {
     padding: 10px;
     .col-right {

@@ -12,9 +12,6 @@
   color: white;
   border: none; }
 
-header .container img {
-  margin-left: 60px; }
-
 #Asadbek {
   width: 100%;
   max-width: 1400px;
@@ -41,8 +38,7 @@ header .container img {
   border-bottom: 1px solid white; }
 
 .matn {
-  color: white;
-  padding-left: 80px; }
+  color: white; }
   .matn h5 {
     font-size: 20px; }
   .matn h1 {
@@ -214,6 +210,9 @@ header .container img {
       justify-content: center;
       gap: 10px; } }
 @media screen and (max-width: 768px) {
+  #stats .container {
+    padding: 50px 20px; }
+
   #solutions {
     padding: 10px; }
     #solutions .col-right ul {
